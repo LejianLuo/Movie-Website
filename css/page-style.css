@@ -1,0 +1,325 @@
+/*header*/
+header{
+    background-image: url('https://www.designyourway.net/diverse/darkpat/ghost-tile.jpg');
+    background-size: contain;
+    position: sticky;
+    top: 0;
+    z-index:2;
+}
+ul{
+    margin: 0;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+    line-height: 4;
+    z-index:1;
+    margin: 0 5px;
+
+}
+ul a{
+    text-decoration: none;
+    color:antiquewhite;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+ul a:hover{
+    font-size:15px;
+    color:blue;
+}
+ul a:active{
+    font-size:12px;
+}
+#buttoncontainer{
+    display: inline;
+    float:right;
+    margin: 10px;
+}
+#search {
+    display: inline-block;
+}
+#search input{
+    padding:10px;
+}
+#searchBtn{
+    padding:10px;
+    background-color:rgb(255, 191, 0);
+    color:black;
+    border: 1px rgb(255, 191, 0) solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#searchBtn:hover{
+    padding:10px;
+    background-color:rgb(135, 101, 0);
+    border: 1px rgb(135, 101, 0) solid;
+    color:white;
+}
+#searchBtn:active{
+    padding:9px;
+}
+#login{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(17, 17, 41);
+    background-color: rgb(255, 191, 0);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    min-width: 50px;
+    margin-left:10px;
+}
+#login:active{ 
+    background-color: rgb(88, 86, 86);
+    color:aliceblue;
+}
+#login:hover{
+    box-shadow: 1px 3px black;
+    border: 2px solid rgb(255, 191, 0);
+}
+
+/*video-title*/
+#headpic{
+    background-image: url('https://img.freepik.com/free-vector/abstract-background-with-monochrome-low-poly-design_1048-14453.jpg?w=2000');
+    background-size: cover;
+    height:700px;
+    width:100%;
+    text-align: center;
+    border-bottom: 3px white solid;
+}
+#headvideo {
+    color:antiquewhite;
+    position:relative;
+    top:10%;
+    z-index:1;
+}
+iframe{
+    width:65%;
+}
+#maintitle{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+    font-size: 100px;
+}
+#start{
+    top: 15%;
+    border-radius:30px;
+    background-color: antiquewhite;
+    position: relative;
+    display:inline-block;
+    cursor:pointer;
+}
+#start a{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    display:block;
+    padding: 20px;
+    color:rgb(17, 17, 41);
+}
+#close a{
+    padding:10px 15px;
+    border-radius: 100%;
+    font-weight: lighter;
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+}
+#close{
+    position:relative;
+    top:60%;
+    display:none;
+}
+
+#dropbar{
+    position:relative;
+    top:15%;
+}
+#filter{
+    display:inline-block;
+    background-color: antiquewhite;
+    padding:20px;
+    border-radius:30px;
+    width:85px;
+    cursor:pointer;
+}
+#filter a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(17, 17, 41);
+}
+#dropcontent{
+    display:none;
+}
+#dropcontent a{
+    margin: 5px;
+    display:inline-block;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(17, 17, 41);
+    background-color: antiquewhite;
+    padding:5px;
+    border-radius: 15px;
+}
+#dropcontent a:active,#filter:active,#start:active{
+    background-color: rgb(88, 86, 86);
+    color:aliceblue;
+}
+#dropcontent a:hover, #filter:hover,#start:hover{
+    box-shadow: 1px 3px black;
+    border: 2px solid rosybrown;
+}
+#close a:hover{
+    background-color: red;
+}
+#close a:active{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*content*/
+#returnhome{
+    position: fixed;
+    top:90%;
+    left:96%;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 60px;
+    color:black;
+}
+#returnhome:active{
+    font-size: 55px;
+}
+
+html, body {
+    margin:0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.title{
+    text-align: center;
+    background-color:whitesmoke;
+}
+.title h2{
+    font-weight: bolder;
+    font-size: 30px; 
+    margin: 0;
+    color:rgb(88, 86, 86);
+    line-height: 3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: baseline;
+    background-color:whitesmoke;
+}
+#maincontainer article{
+    border-radius:15px;
+    padding: 0px;
+    color:rgb(24, 24, 24);
+    background-color: antiquewhite;
+    margin: 20px;
+    width: 350px;
+    height: 560px;
+    
+ }
+ #maincontainer article img{
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+ }
+ #maincontainer article:hover{
+    border: solid 1px darkgrey;
+    padding: 2px 2px;
+    box-shadow: 2px 4px rgb(88, 86, 86);
+ }  
+
+.link{
+    display:grid;
+    grid-template: 1fr /  1fr 1fr;
+
+}
+#maincontainer article a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    border-radius: 15px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:bold;
+}
+#maincontainer article a:hover{
+    text-decoration: none;
+    color:black;
+    border-radius: 15px;
+    border:2px solid darkgrey;
+    box-shadow: 1px 3px rgb(88, 86, 86);
+}
+#maincontainer article a:active{
+    background-color: rgb(81, 79, 79);
+    color:aliceblue;
+}
+.cover p{
+    font-family:'Montserrat', sans-serif;
+    margin: 5px;
+    height:100px;
+    overflow-y: hidden;
+}
+
+/*comment section*/
+#commentembed{
+    width:90%;
+    display:block;
+    height:350px;
+    margin:0 auto;
+}
+/*footer*/
+footer{
+    background-color:whitesmoke;
+    font-family:'Montserrat', sans-serif;
+    height: 100px;
+}
+
+footer #copyright{
+    margin: 20px 20px;
+}
+footer div{
+    margin: 0 20px;
+    padding-top: 10px;
+}
+.float-end{
+    float:right;
+}
+.float-end a{
+    text-decoration: none;
+    margin-right:10px;
+    color:rgb(17, 17, 41);
+    background-color: rgb(255, 191, 0);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.float-end a:active{ 
+    background-color: rgb(88, 86, 86);
+    color:aliceblue;
+}
+.float-end a:hover{
+    box-shadow: 1px 3px black;
+    border: 2px solid rgb(255, 191, 0);
+}
+
+
+
+
+
+
+

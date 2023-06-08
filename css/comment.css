@@ -1,0 +1,77 @@
+/*comment section*/
+body{
+    overflow-y: hidden;
+}
+#commentsection{
+    justify-content: center;
+    display:flex;
+    background-color: whitesmoke;
+
+   
+}
+#postedcomment{
+    overflow-y: scroll;
+    display:flex;
+    flex-direction: column;
+    height:280px;
+    margin:20px;
+    width:750px;
+}
+.comment{  
+    min-width:600px;
+    padding:15px;
+    border-radius:15px;
+    color:rgb(24, 24, 24);
+    background-color: antiquewhite;
+    margin: 10px 0;
+}
+.comment h4{
+    display:inline;
+    margin:5px;
+}
+.comment img{
+    width:40px;
+    height:40px;
+    border: white 1px solid;
+    border-radius: 100px;
+    position:relative;
+    top:8%;
+}
+.comment p{
+    margin-top: 30px;
+    font-family:'Montserrat', sans-serif;
+}
+#writecomment{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border:antiquewhite 3px solid;
+    height:280px;
+    width:350px;
+    margin:20px;
+}
+#commentbox label{
+    display: block;
+    margin-bottom: 5px;
+}
+#commentbox{
+    margin-left: 20px;
+}
+#commentbox button{
+    text-decoration: none;
+    color:rgb(17, 17, 41);
+    background-color: rgb(255, 191, 0);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    border: 0px;
+}
+#commentbox button:active{ 
+    background-color: rgb(88, 86, 86);
+    color:aliceblue;
+}
+#commentbox button:hover{
+    box-shadow: 1px 3px black;
+    border: 2px solid rgb(255, 191, 0);
+}

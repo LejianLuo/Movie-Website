@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/robot.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link href='css/page-style.css' rel='stylesheet' type='text/css'/>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/181536840e.js" crossorigin="anonymous"></script>
+    <script src="js/trailer.js" defer></script>
+    <script src="js/filter.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <title>Movie</title>
+</head>
+
+<body>
+    <!--navigation bar contains link to the main page and 3 subcategories-->
+    <header>
+        <nav>
+          <ul>
+            <li> <a href="index.html">Sci-Fi Gallery</a></li> <li> <a href="#">Movies</a> </li> <li><a href="tv.html"> TV-Series </a></li> <li> <a href="animation.html">Animations </a></li>
+          </ul>
+          <div id="buttoncontainer">       
+            <div id="search">
+              <input type="search" placeholder="Search"></input>
+              <a id="searchBtn" href="#maincontainer">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+            <a id='login' href="registration.html" target="_blank">Sign In</a>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+      <div id="headpic">
+        <div id="headvideo">
+          <h1 id="close"><a href="#headvideo">X</a></h1>
+        </div>
+        <h1 id="maintitle">Movie</h1>
+        <div id="dropbar">
+          <h2 id="filter"><a href="#">Filter</a></h2>
+          <div id="dropcontent">
+              <a href="#" id="all">All</a>
+              <a href="#" id="space">Space Exploration</a>
+              <a href="#" id="tech">Advanced Technology</a>
+              <a href="#" id="time">Time Travel</a>
+              <a href="#" id="parallel">Parallel Universes</a>
+              <a href="#" id="alien">Alien Lifeforms</a>
+              <a href="#" id="soon">Comeing soon</a>
+          </div>
+      </div>
+        <h2 id="start"><a href="#maincontainer">Explore</a></h2>
+      </div>
+    </main>
+    
+    <a id='returnhome' href="#headpic">^</a>  
+    <div id='maincontainer'>
+
+      <div class="title space">
+      <h2 id="first">Space Exploration</h2>
+      </div>
+      
+      <section class="space">   
+          <article class="space" id="Interstellar">
+              <div class="cover">
+                  <img src="images/m-interstellar.JPG" alt="Interstellar">
+                  <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.They left the Earth, when will they come back?  A masterpiece of Christopher Nolan.</p>
+              </div>
+              <div class="link">
+                <a href="https://www.imdb.com/title/tt0816692/" target="_blank">Learn More</a>
+                <a href="#headpic" id="Interstellar" >Watch Trailer</a>
+              </div>  
+          </article>   
+          <article class="space" id="Martian">
+            <div class="cover">
+                <img src="images/m-martian.JPG" alt="Martian">
+                <p>An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.</p>
+            </div>
+            <div class="link">
+              <a href="https://www.imdb.com/title/tt3659388/" target="_blank">Learn More</a>
+              <a href="#headpic" id="Martian" >Watch Trailer</a>
+            </div>  
+        </article>   
+        <article class="space" id="2001 a space odyssey">
+          <div class="cover">
+              <img src="images/m-2001.JPG" alt="Odyssey2001">
+              <p>After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.</p>
+          </div>
+          <div class="link">
+            <a href="https://www.imdb.com/title/tt0062622/" target="_blank">Learn More</a>
+            <a href="#headpic" id="Odyssey2001">Watch Trailer</a>
+          </div>  
+      </article>   
+      </section>
+
+      <div class="title tech">
+        <h2>Advanced Technology</h2>
+        </div>
+        
+        <section class="tech">   
+            <article class="tech" id="minority report">
+                <div class="cover">
+                    <img src="images/m-minorityReport.JPG" alt="MinorityReport">
+                    <p>In a future where a special police unit is able to arrest murderers before they commit their crimes, an officer from that unit is himself accused of a future murder.</p>
+                <div class="link">
+                  <a href="https://www.imdb.com/title/tt0181689/?ref_=tt_mv_close" target="_blank">Learn More</a>
+                  <a href="#headpic" id="MinorityReport" >Watch Trailer</a>
+                </div>  
+            </article>   
+            <article class="tech" id="ghost in the shell 2045">
+              <div class="cover">
+                  <img src="images/a-ghostIntheShell2045.JPG" alt="ghost in the shell 2045">
+                  <p>Hired as a mercenary unit, the former members of Japan's elite Section 9 are faced with the sudden appearance of "Post-Human," a being with tremendous intelligence and physical capabilities.</p>
+              </div>
+              <div class="link">
+                <a href="https://www.imdb.com/title/tt9466298/?ref_=tt_mv_close" target="_blank">Learn More</a>
+                <a href="#headpic" id="GhostShell-Movie" >Watch Trailer</a>
+              </div>  
+          </article>   
+          <article class="tech" id="AI">
+            <div class="cover">
+                <img src="images/m-AI.JPG" alt="AI">
+                <p>A highly advanced robotic boy longs to become "real" so that he can regain the love of his human mother.the line between human beings and robots.</p>
+            </div>
+            <div class="link">
+              <a href="https://www.imdb.com/title/tt0212720/?ref_=nv_sr_srsg_3" target="_blank">Learn More</a>
+              <a href="#headpic" id="AI">Watch Trailer</a>
+            </div>  
+        </article>   
+      </section>
+
+      <div class="title time">
+        <h2>Time Travel</h2>
+        </div>
+        
+        <section class="time">   
+            <article class="time" id="Tenet">
+                <div class="cover">
+                    <img src="images/m-tenet.JPG" alt="Tenet">
+                    <p>Armed with only one word, Tenet, and fighting for the survival of the entire world, a journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.</p>
+                <div class="link">
+                  <a href="https://www.imdb.com/title/tt6723592/?ref_=tt_mv_close" target="_blank">Learn More</a>
+                  <a href="#headpic" id="Tenet" >Watch Trailer</a>
+                </div>  
+            </article>   
+            <article class="time" id="Adam Project">
+              <div class="cover">
+                  <img src="images/m-adamProject.JPG" alt="AdamProject">
+                  <p>After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self for a mission to save the future.He has risked everything to come back in time on a secret mission.</p>
+              </div>
+              <div class="link">
+                <a href="https://www.imdb.com/title/tt2463208/?ref_=tt_mv_close" target="_blank">Learn More</a>
+                <a href="#headpic" id="AdamProject" >Watch Trailer</a>
+              </div>  
+          </article>   
+          <article class="time" id="Back To the Future">
+            <div class="cover">
+                <img src="images/m-backToFuture.JPG" alt="BackToFuture">
+                <p>Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart? Every night Taki has a strange dream where he becomes...a high school girl in a small mountain town.</p>
+            </div>
+            <div class="link">
+              <a href="https://www.imdb.com/title/tt0088763/?ref_=ttls_li_i" target="_blank">Learn More</a>
+              <a href="#headpic" id="BackToFuture">Watch Trailer</a>
+            </div>  
+        </article>   
+      </section>
+
+      <div class="title parallel">
+        <h2>Parallel Universe</h2>
+        </div>
+        
+        <section class="parallel">   
+            <article class="parallel" id="Everything Everywhere All at Once">
+                <div class="cover">
+                    <img src="images/m-everything.JPG" alt="Everything">
+                    <p>An Chinese ageing immigrant is swept up in an insane adventure, where she can save the world by exploring other universes connecting with the lives she could have led.</p>
+                <div class="link">
+                  <a href="https://www.imdb.com/title/tt6710474/?ref_=fn_al_tt_1" target="_blank">Learn More</a>
+                  <a href="#headpic" id="Everything" >Watch Trailer</a>
+                </div>  
+            </article>   
+            <article class="parallel" id="Doctor Strange">
+              <div class="cover">
+                  <img src="images/m-doctorStrange.JPG" alt="DoctorStrange">
+                  <p>Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, which threaten to wipe out millions across the multiverse.</p>
+              </div>
+              <div class="link">
+                <a href="https://www.imdb.com/title/tt1211837/?ref_=fn_al_tt_1" target="_blank">Learn More</a>
+                <a href="#headpic" id="DoctorStrange" >Watch Trailer</a>
+              </div>  
+          </article>   
+          <article class="parallel" id="spiderman">
+            <div class="cover">
+                <img src="images/m-spiderman.JPG" alt="Spiderman">
+                <p>With Spider-Man's identity revealed, Peter asks Doctor Strange for help.When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it means to be Spider-Man.</p>
+            </div>
+            <div class="link">
+              <a href="https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0" target="_blank">Learn More</a>
+              <a href="#headpic" id="Spiderman-Movie">Watch Trailer</a>
+            </div>  
+        </article>   
+      </section>
+
+      <div class="title alien">
+        <h2>Alien Lifeform</h2>
+        </div>
+        
+        <section class="alien">   
+            <article class="alien" id="arrival">
+                <div class="cover">
+                    <img src="images/m-arrival.JPG" alt="Arrival">
+                    <p>A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.</p>
+                <div class="link">
+                  <a href="https://www.imdb.com/title/tt2543164/?ref_=nv_sr_srsg_0" target="_blank">Learn More</a>
+                  <a href="#headpic" id="Arrival" >Watch Trailer</a>
+                </div>  
+            </article>   
+            <article class="alien" id="avatar">
+              <div class="cover">
+                  <img src="images/m-avatar.JPG" alt="Avatar">
+                  <p>A paraplegic Marine dispatched to the moon Pandora on a mission becomes torn between following his orders and protecting the world he feels is his home.</p>
+              </div>
+              <div class="link">
+                <a href="https://www.imdb.com/title/tt0499549/?ref_=nv_sr_srsg_3" target="_blank">Learn More</a>
+                <a href="#headpic" id="Avatar" >Watch Trailer</a>
+              </div>  
+          </article>   
+          <article class="alien" id="Independence Day">
+            <div class="cover">
+                <img src="images/m-independenceDay.JPG" alt="IndependenceDay">
+                <p>The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.</p>
+            </div>
+            <div class="link">
+              <a href="https://www.imdb.com/title/tt0116629/?ref_=nv_sr_srsg_0" target="_blank">Learn More</a>
+              <a href="#headpic" id="IndependenceDay">Watch Trailer</a>
+            </div>  
+        </article>   
+      </section>
+
+      <div class="title soon">
+        <h2>Coming Soon</h2>
+        </div>
+        
+        <section class="soon">   
+            <article class="soon" id="Black Adam">
+                <div class="cover">
+                    <img src="images/m-blackAdam.JPG" alt="BlackAdam">
+                    <p>Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods-and imprisoned just as quickly-Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.</p>
+                <div class="link">
+                  <a href="https://www.imdb.com/title/tt6443346/?ref_=tt_mv_close" target="_blank">Learn More</a>
+                  <a href="#headpic" id="BlackAdam" >Watch Trailer</a>
+                </div>  
+            </article>   
+            <article class="soon" id="Rubikon">
+              <div class="cover">
+                  <img src="images/m-rubikon.JPG" alt="Rubikon">
+                  <p>Following a catastrophe on Earth, the planet is covered in a toxic fog. The crew in the space station, must decide whether to risk their lives to get home and search for survivors, or stay safe in the station's "algae symbiosis system.</p>
+              </div>
+              <div class="link">
+                <a href="https://www.imdb.com/title/tt13829262/" target="_blank">Learn More</a>
+                <a href="#headpic" id="Rubikon" >Watch Trailer</a>
+              </div>  
+          </article>   
+          <article class="soon" id="Moonfall">
+            <div class="cover">
+                <img src="images/m-moonfall.JPG" alt="Moonfall">
+                <p>A mysterious force knocks the moon and sends it hurtling on a collision toward earth. Astronauts will mount an impossible last-ditch mission into space, leaving behind everyone they love, only to find that they might have prepared for the wrong mission.</p>
+            </div>
+            <div class="link">
+              <a href="https://www.imdb.com/title/tt5834426/?ref_=tt_mv_close" target="_blank">Learn More</a>
+              <a href="#headpic" id="Moonfall">Watch Trailer</a>
+            </div>  
+        </article>   
+      </section>
+    </div>
+
+
+    <iframe src="comment.html" id="commentembed" frameBorder="0"></iframe>
+
+
+    <footer>
+      <div>
+          <i class="fa-brands fa-imdb"></i>
+          <i class="social-icon fa-brands fa-facebook"></i>
+          <i class="social-icon fa-brands fa-twitter"></i>
+          <i class="social-icon fa-brands fa-instagram"></i>
+          <i class="social-icon fa-solid fa-envelope"></i>
+      </div>
+      <p id="copyright">&copy; 2022 IMDB All Rights Reserved &middot; <a href="#" target="_blank">Privacy</a> &middot; <a href="#" target="_blank">Terms</a></p>
+    </footer>
+    
+  </body>
+</html>
